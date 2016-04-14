@@ -1,0 +1,36 @@
+package: github.com/rancher/websocket-proxy
+
+import:
+- package: github.com/Sirupsen/logrus
+  version: c370730052778915afc0ac66ad0b1f2a5cc2b948
+
+- package: github.com/dgrijalva/jwt-go
+  version: 2e53eb673c4450614e3bca6f345197f9527dce71
+
+- package: github.com/docker/docker/pkg/tlsconfig
+  version: cc12d2bfaae135e63b1f962ad80e6943dd995337
+
+- package: github.com/gorilla/context
+  version: 215affda49addc4c8ef7e2534915df2c8c35c6cd
+
+- package: github.com/gorilla/mux
+  version: 94903de8c98a68d8b4483c529b26a5d146e386a2
+
+- package: github.com/gorilla/websocket
+  version: 1551221275a7bd42978745a376b2531f791d88f3
+
+- package: github.com/patrickmn/go-cache
+  version: 1881a9bccb818787f68c52bfba648c6cf34c34fa
+
+- package: github.com/pborman/uuid
+  version: c55201b036063326c5b1b89ccfe45a184973d073
+
+- package: github.com/rakyll/globalconf
+  version: 415abc325023f1a00cd2d9fa512e0e71745791a2
+
+- package: github.com/rakyll/goini
+  version: 907cca0f578a5316fb864ec6992dc3d9730ec58c
+
+- package: github.com/rancher/go-rancher/client
+  version: ce2d465a0d29d81724fea8d4adbffbba86256fba
+
